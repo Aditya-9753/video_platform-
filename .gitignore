@@ -1,0 +1,71 @@
+########################################
+# GENERAL
+########################################
+.DS_Store
+.env
+.env.*
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+########################################
+# NODE / REACT NATIVE / EXPO
+########################################
+node_modules/
+.expo/
+.expo-shared/
+web-build/
+dist/
+build/
+
+# Metro / React Native
+.metro-health-check*
+*.map
+
+########################################
+# EXPO
+########################################
+expo-env.d.ts
+android/
+ios/
+*.jks
+*.keystore
+
+########################################
+# PYTHON / FLASK
+########################################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+.env/
+.venv/
+venv/
+ENV/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+
+########################################
+# FLASK / DATABASE
+########################################
+instance/
+*.sqlite3
+*.db
+
+########################################
+# IDE / EDITOR
+########################################
+.vscode/
+.idea/
+*.swp
+*.swo
+
+########################################
+# OS
+########################################
+Thumbs.db
